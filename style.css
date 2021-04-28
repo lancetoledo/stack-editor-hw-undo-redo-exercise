@@ -1,0 +1,28 @@
+* {
+  font-family: Lato;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+#wrapper p {
+  margin: 16px auto;
+}
+
+#header {
+  margin: 20px auto;
+}
+
+textarea {
+  padding: 16px;
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  overflow-y: auto;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+}
